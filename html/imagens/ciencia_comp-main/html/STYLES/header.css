@@ -29,9 +29,36 @@
     cursor: pointer;
     background-image: linear-gradient(to battom, #5aa15e, #adca5d,);
 }
-.botão-login:hover{
+.botão_login:hover{
     background-color: white;
     color: black;
-box-shadow: 0px 8px 16px rgba(209, 192,192,0.2);
+    box-shadow: 0px 8px 16px rgba(209, 192, 192, 0.2);
 }
-@media screen and (min-width:1024px)
+@media screen and (min-width:1024px)  {
+
+
+    .cabeçalho{
+   font-size: 2em; 
+   height:160px;
+   align-items: center ; 
+   margin:lcqi ;
+}
+ .titulo_smart{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+     }
+
+     .botão_login{
+
+        font-size: 60px;
+        margin: 10px 60px;
+        
+     }
+
+     .logotipo{
+        width: 120px;
+        padding: 5px;
+        margin: 05px;
+     }
+    
+    }
